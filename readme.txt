@@ -63,6 +63,10 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 * WordPress 4.0 or later.
 * WooCommerce 2.3 or later.
 
+= Does this work on mobile devices? =
+
+Yes! It works on any screen size. Please see [Screenshots](https://wordpress.org/plugins/wc-checkout-terms-popup/screenshots/).
+
 = Where can I report bugs or contribute to the project? =
 
 Bugs can be reported either in our support forum or preferably on the [GitHub repository](https://github.com/shivapoudel/wc-checkout-terms-popup/issues).
@@ -74,7 +78,8 @@ Yes you can! Join in on our [GitHub repository](http://github.com/shivapoudel/wc
 == Screenshots ==
 
 1. Settings page.
-2. Checkout page.
+2. Checkout page - Terms Popup.
+3. Checkout Page - Terms Popup (Mobile screen).
 
 == Changelog ==
 
