@@ -1,0 +1,23 @@
+{
+  "name": "shivapoudel/wc-checkout-terms-popup",
+  "description": "WooCommerce extension to launch Terms page in a popup window during the checkout process.",
+  "homepage": "http://github.com/shivapoudel/wc-checkout-terms-popup/",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0+",
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "*",
+    "wp-coding-standards/wpcs": "*",
+    "simplyadmire/composer-plugins" : "@dev"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+    ],
+    "post-update-cmd": [
+      "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+    ]
+  }
+}

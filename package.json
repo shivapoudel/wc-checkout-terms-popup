@@ -1,0 +1,29 @@
+{
+  "name": "wc-checkout-terms-popup",
+  "title": "WooCommerce Checkout Terms Popup",
+  "version": "1.0.0",
+  "homepage": "http://github.com/shivapoudel/wc-checkout-terms-popup/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shivapoudel/wc-checkout-terms-popup.git"
+  },
+  "license": "GPL-3.0+",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-checktextdomain": "~1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-phpcs": "~0.4.0",
+    "grunt-sass": "~1.2.1",
+    "grunt-stylelint": "~0.6.0",
+    "grunt-wp-i18n": "~0.5.4",
+    "node-bourbon": "~4.2.8"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.1.0"
+  }
+}

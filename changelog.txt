@@ -1,0 +1,4 @@
+*** WooCommerce Checkout Terms Popup Changelog ***
+
+= 1.0.0 - xx/xx/2016 =
+* Stable Initial Release.

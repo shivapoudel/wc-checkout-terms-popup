@@ -1,0 +1,85 @@
+/**
+ * wc-checkout-terms-popup.scss
+ * Styles applied to Checkout Terms Popup.
+ */
+
+/**
+ * Imports
+ */
+@import 'bourbon';
+
+/**
+ * Styling begins
+ */
+.wc-checkout-terms-popup {
+
+	.wc-checkout-terms-popup__footer {
+		padding: 13px 16px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		height: auto;
+		border-top: 1px solid #ddd;
+		background: #f3f3f3;
+
+		.wc-checkout-terms-popup-decline {
+			float: right;
+		}
+	}
+
+	&.wc-enabled-terms-button {
+		.wc-checkout-terms-popup__content {
+			margin-bottom: 60px;
+		}
+	}
+}
+
+/**
+ * Thickbox
+ */
+#TB_window {
+
+	#TB_title {
+		min-height: 36px;
+		padding: 0;
+
+		#TB_ajaxWindowTitle {
+			line-height: 36px;
+		}
+
+		#TB_closeWindowButton {
+			width: 36px;
+			height: 36px;
+			box-shadow: none;
+
+			span.tb-close-icon {
+				width: 36px;
+				height: 36px;
+				line-height: 36px;
+
+				&::before {
+					line-height: 36px;
+				}
+			}
+
+			span.screen-reader-text {
+				clip: rect(1px, 1px, 1px, 1px);
+				height: 1px;
+				overflow: hidden;
+				position: absolute !important;
+				width: 1px;
+				word-wrap: normal !important;
+			}
+
+			&:active,
+			&:focus .tb-close-icon {
+				box-shadow: none;
+			}
+		}
+	}
+
+	#TB_ajaxContent {
+		box-sizing: content-box;
+	}
+}
