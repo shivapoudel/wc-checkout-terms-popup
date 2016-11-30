@@ -83,5 +83,5 @@ Yes you can! Join in on our [GitHub repository](http://github.com/shivapoudel/wc
 
 == Changelog ==
 
-= 1.0.0 - xx/xx/2016 =
+= 1.0.0 - 30/11/2016 =
 * Stable Initial Release.
