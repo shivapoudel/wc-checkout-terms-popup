@@ -3,7 +3,7 @@ Contributors: shivapoudel
 Donate link: https://ko-fi.com/A121FP1
 Tags: woocommerce, modal, thickbox, popup, terms, conditions, terms & conditions
 Requires at least: 4.0
-Tested up to: 4.7
+Tested up to: 5.1
 Stable tag: 1.0.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -82,6 +82,9 @@ Yes you can! Join in on our [GitHub repository](http://github.com/shivapoudel/wc
 3. Checkout Page - Terms Popup (Mobile screen).
 
 == Changelog ==
+
+= 1.0.1 - 30/11/2016 =
+* WP Tested upto 5.1 :)
 
 = 1.0.0 - 30/11/2016 =
 * Stable Initial Release.
