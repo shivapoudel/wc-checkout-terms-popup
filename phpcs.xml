@@ -14,19 +14,15 @@
 	<config name="testVersion" value="5.2-" />
 
 	<!-- Rules -->
-	<rule ref="WPEverest-Core" />
+	<rule ref="WooCommerce-Core" />
 
 	<rule ref="PEAR.NamingConventions.ValidClassName">
 		<exclude-pattern>includes/</exclude-pattern>
 	</rule>
 
-	<rule ref="WordPress.Files.FileName.InvalidClassFileName">
-		<exclude-pattern>includes/class-everest-forms.php</exclude-pattern>
-	</rule>
-
 	<rule ref="WordPress.WP.I18n">
 		<properties>
-			<property name="text_domain" type="array" value="everest-forms" />
+			<property name="text_domain" type="array" value="wc-checkout-terms-popup" />
 		</properties>
 	</rule>
 </ruleset>
