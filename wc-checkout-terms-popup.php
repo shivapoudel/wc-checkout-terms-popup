@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Checkout Terms Popup
  * Plugin URI: http://github.com/shivapoudel/wc-checkout-terms-popup
  * Description: WooCommerce extension to allow your Terms page to open in a popup window during the checkout process.
- * Version: 1.0.1
+ * Version: 1.0.3
  * Author: Shiva Poudel
  * Author URI: http://shivapoudel.com
  * License: GPLv3 or later

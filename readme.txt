@@ -4,7 +4,7 @@ Donate link: https://ko-fi.com/A121FP1
 Tags: woocommerce, modal, thickbox, popup, terms, conditions, terms & conditions
 Requires at least: 4.0
 Tested up to: 5.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
