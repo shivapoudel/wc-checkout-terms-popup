@@ -1,5 +1,8 @@
 workflow "Deploy" {
-  resolves = ["WordPress Plugin Deploy"]
+  resolves = [
+    "elgohr/Github-Release-Action@1.0",
+    "tag",
+  ]
   on = "push"
 }
 
@@ -9,11 +12,8 @@ action "tag" {
   args = "tag"
 }
 
-action "WordPress Plugin Deploy" {
+action "elgohr/Github-Release-Action@1.0" {
+  uses = "elgohr/Github-Release-Action@1.0"
   needs = ["tag"]
-  uses = "10up/actions-wordpress/dotorg-plugin-deploy@master"
-  secrets = ["SVN_USERNAME", "SVN_PASSWORD", "GITHUB_TOKEN"]
-  env = {
-    SLUG = "wc-checkout-terms-popup"
-  }
+  secrets = ["GITHUB_TOKEN"]
 }
